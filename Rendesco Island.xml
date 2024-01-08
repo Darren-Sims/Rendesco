@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/Island_00001.png" />
+    <userInterface showProgressPulse="false" showZoomButtons="false" showToolTips="false" showHotspotsButton="false" showFullScreenButton="false" showTogglePlayButton="false" showArrows="false" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="0.8" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="transparent" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" showProgressBar="false" skin="basic" />
+    <control dragSpeed="0.26" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="21" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="2" centerZoom="false" maxZoom="100" />
+    <rotation firstImage="1" rotate="true" rotatePeriod="7" bounce="true" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="true" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" spinOnPageScroll="false" pageScrollFollow="false" pageScrollDelay="300" pageScrollPeriod="3" autoPlayOnDragRelease="false" />
+  </settings>
+  <hotspots>
+    <hotspot id="spot1" renderMode="0" indicatorImage="Hotspot-Icon-small.png" activateOnClick="true" effects="pulseRipple,2000" minIndicatorScale="10" margin="0,0,0,0" align="top,left">
+      <spotinfo txt="&lt;b&gt;Ground Source Heat Pumps&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;We can work in two configurations to cover differing site needs. Networks either have a centralised ground source heat pump plant room, which supplies heat directly to homes, or each home owns its ground source heat pump and benefits from an ambient temperature network to produce usable domestic heat locally.&#xD;&#xA;" css="font-family:Verdana;font-size:12px;color:#FFFFFF;width:400px;padding:15px 15px;border:1px solid #DB5621;background-color:rgba(0,0,0,0.5);" />
+    </hotspot>
+    <hotspot id="spot2" renderMode="0" indicatorImage="Hotspot-Icon-small.png" activateOnClick="true" deactivateOnClick="true" effects="pulseRipple,2000" minIndicatorScale="10" margin="0,0,0,0" align="top,left">
+      <spotinfo txt="&lt;b&gt;Grid Connection and Planning&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Energy strategy is crucial - the carbon performance of our networks goes well beyond the Future Homes Standard, helping you unlock sites and plan for the long-term. Our wealth of site operating data also helps us advise you on grid connection capacity as electrification becomes more widespread." css="font-family:Verdana;font-size:12px;color:#FFFFFF;width:400px;padding:15px 15px;border:1px solid #DB5621;background-color:rgba(0,0,0,0.5);" />
+    </hotspot>
+    <hotspot id="spot3" renderMode="0" indicatorImage="Hotspot-Icon-small.png" activateOnClick="true" deactivateOnClick="true" effects="pulseRipple,2000" minIndicatorScale="10" margin="0,0,0,0" align="top,left">
+      <spotinfo txt="&lt;b&gt;Boreholes&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;We have built up a national dataset covering ground temperatures throughout the year, from sites we designed and built and now own and operate. This means our designers and engineers can configure the most economical borehole arrangement. Depths are typically 100m-200m+ where year-round ground temperature stabilises between 10 and 15 degrees celsius." css="font-family:Verdana;font-size:12px;color:#FFFFFF;width:400px;padding:15px 15px;border:1px solid #DB5621;background-color:rgba(0,0,0,0.5);" />
+    </hotspot>
+    <hotspot id="spot4" renderMode="0" indicatorImage="Hotspot-Icon-small.png" activateOnClick="true" effects="pulseRipple,2000" minIndicatorScale="10" margin="0,0,0,0" align="top,left">
+      <spotinfo txt="&lt;b&gt;Your Development&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Our solution keeps residents cosy in the winter and cool in the summer, using the ground as a radically stable, renewable, heating source. Houses or apartments, or both, our networks and internal equipment designs are tailorable and can be deployed at scales of 50, 250, or 2,000+ plots." css="font-family:Verdana;font-size:12px;color:#FFFFFF;width:400px;padding:15px 15px;border:1px solid #DB5621;background-color:rgba(0,0,0,0.5);" />
+    </hotspot>
+  </hotspots>
+  <images rows="1">
+    <image src="images/Island_00000.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="108" offsetY="145" />
+      <hotspot source="spot3" offsetX="72" offsetY="181" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00001.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="116" offsetY="146" />
+      <hotspot source="spot3" offsetX="71" offsetY="181" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00002.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="125" offsetY="147" />
+      <hotspot source="spot3" offsetX="70" offsetY="181" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00003.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="132" offsetY="148" />
+      <hotspot source="spot3" offsetX="69" offsetY="181" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00004.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="141" offsetY="149" />
+      <hotspot source="spot3" offsetX="70" offsetY="181" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00005.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="149" offsetY="150" />
+      <hotspot source="spot3" offsetX="70" offsetY="181" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00006.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="159" offsetY="150" />
+      <hotspot source="spot3" offsetX="70" offsetY="181" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00007.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="168" offsetY="150" />
+      <hotspot source="spot3" offsetX="71" offsetY="182" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00008.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="178" offsetY="151" />
+      <hotspot source="spot3" offsetX="72" offsetY="183" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00009.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="186" offsetY="151" />
+      <hotspot source="spot3" offsetX="73" offsetY="184" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00010.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="196" offsetY="151" />
+      <hotspot source="spot3" offsetX="74" offsetY="184" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00011.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="206" offsetY="151" />
+      <hotspot source="spot3" offsetX="77" offsetY="186" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00012.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="215" offsetY="151" />
+      <hotspot source="spot3" offsetX="80" offsetY="187" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00013.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="225" offsetY="151" />
+      <hotspot source="spot3" offsetX="82" offsetY="188" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00014.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="235" offsetY="150" />
+      <hotspot source="spot3" offsetX="86" offsetY="189" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00015.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="244" offsetY="150" />
+      <hotspot source="spot3" offsetX="89" offsetY="190" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00016.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="252" offsetY="149" />
+      <hotspot source="spot3" offsetX="94" offsetY="191" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00017.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="260" offsetY="148" />
+      <hotspot source="spot3" offsetX="98" offsetY="192" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00018.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="268" offsetY="147" />
+      <hotspot source="spot3" offsetX="104" offsetY="193" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00019.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="278" offsetY="146" />
+      <hotspot source="spot3" offsetX="108" offsetY="194" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00020.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="284" offsetY="144" />
+      <hotspot source="spot3" offsetX="114" offsetY="195" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00021.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="292" offsetY="144" />
+      <hotspot source="spot3" offsetX="120" offsetY="195" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00022.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="300" offsetY="143" />
+      <hotspot source="spot3" offsetX="125" offsetY="196" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00023.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="307" offsetY="142" />
+      <hotspot source="spot3" offsetX="131" offsetY="197" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00024.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="313" offsetY="140" />
+      <hotspot source="spot3" offsetX="139" offsetY="198" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00025.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="320" offsetY="138" />
+      <hotspot source="spot3" offsetX="146" offsetY="199" />
+      <hotspot source="spot4" offsetX="198" offsetY="267" />
+    </image>
+    <image src="images/Island_00026.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="327" offsetY="136" />
+      <hotspot source="spot3" offsetX="153" offsetY="199" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00027.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="332" offsetY="135" />
+      <hotspot source="spot3" offsetX="161" offsetY="200" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00028.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="338" offsetY="133" />
+      <hotspot source="spot3" offsetX="167" offsetY="200" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00029.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="342" offsetY="131" />
+      <hotspot source="spot3" offsetX="176" offsetY="201" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00030.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="348" offsetY="128" />
+      <hotspot source="spot3" offsetX="182" offsetY="201" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00031.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="351" offsetY="127" />
+      <hotspot source="spot3" offsetX="191" offsetY="202" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00032.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="354" offsetY="125" />
+      <hotspot source="spot3" offsetX="199" offsetY="202" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00033.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="358" offsetY="122" />
+      <hotspot source="spot3" offsetX="207" offsetY="202" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00034.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="361" offsetY="120" />
+      <hotspot source="spot3" offsetX="214" offsetY="202" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00035.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="363" offsetY="118" />
+      <hotspot source="spot3" offsetX="222" offsetY="202" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00036.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="364" offsetY="116" />
+      <hotspot source="spot3" offsetX="229" offsetY="202" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00037.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="365" offsetY="114" />
+      <hotspot source="spot3" offsetX="237" offsetY="202" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00038.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="365" offsetY="112" />
+      <hotspot source="spot3" offsetX="244" offsetY="202" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00039.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="364" offsetY="111" />
+      <hotspot source="spot3" offsetX="249" offsetY="202" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00040.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="364" offsetY="108" />
+      <hotspot source="spot3" offsetX="258" offsetY="201" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00041.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="363" offsetY="106" />
+      <hotspot source="spot3" offsetX="265" offsetY="201" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00042.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="360" offsetY="104" />
+      <hotspot source="spot3" offsetX="271" offsetY="200" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00043.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="357" offsetY="102" />
+      <hotspot source="spot3" offsetX="277" offsetY="200" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00044.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="355" offsetY="100" />
+      <hotspot source="spot3" offsetX="282" offsetY="199" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00045.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="351" offsetY="98" />
+      <hotspot source="spot3" offsetX="288" offsetY="198" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00046.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="347" offsetY="96" />
+      <hotspot source="spot3" offsetX="293" offsetY="197" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00047.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="344" offsetY="95" />
+      <hotspot source="spot3" offsetX="298" offsetY="195" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00048.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="337" offsetY="92" />
+      <hotspot source="spot3" offsetX="303" offsetY="192" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+    <image src="images/Island_00049.png">
+      <hotspot source="spot1" offsetX="199" offsetY="76" />
+      <hotspot source="spot2" offsetX="337" offsetY="92" />
+      <hotspot source="spot3" offsetX="307" offsetY="191" />
+      <hotspot source="spot4" offsetX="199" offsetY="267" />
+    </image>
+  </images>
+</config>
